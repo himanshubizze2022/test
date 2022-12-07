@@ -8,7 +8,7 @@ const cors = require('cors');
 const port = process.env.PORT || 3000;
 
 app.get('/', function (req, res) {
-    res.send('we are at the root route of our server');
+    res.send({"message":'we are at the root route of our server'});
 })
 
 app.get('/start', function (req, res) {
